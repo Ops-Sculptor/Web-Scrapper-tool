@@ -20,24 +20,29 @@ It supports both **static scraping** (`requests` + BeautifulSoup) and **dynamic 
 ### 1️⃣ Clone the repository
 git clone https://github.com/Ops-Sculptor/Web-Scrapper-tool.git
 cd Web-Scrapper-tool
+
 2️⃣ Create & activate a virtual environment
 python -m venv .venv
 # Windows PowerShell
 .\.venv\Scripts\activate
 # macOS/Linux
 source .venv/bin/activate
+
 3️⃣ Install dependencies
 pip install -r requirements.txt
 
 🚀 Usage
+
 1️⃣ Edit the configuration
 Open config/scraper_config.json and set:
 Categories & keywords to scrape
 CSS selectors for extraction
 Filters & validation rules
 Selenium settings (headless mode, timeouts, etc.)
+
 2️⃣ Run the scraper
 python main.py
+
 3️⃣ Output
 Excel: output.xlsx
 JSON: output.json
