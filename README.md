@@ -16,6 +16,7 @@ It supports both **static scraping** (`requests` + BeautifulSoup) and **dynamic 
 - **Customizable configuration** via `scraper_config.json`.
 
 ## 📂 Project Structure
+
 Web-Scraper-tool/
 │
 ├── main.py # Entry point
